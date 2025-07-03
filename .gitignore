@@ -1,0 +1,23 @@
+# Ignorar caches do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar ambientes virtuais
+venv/
+.env/
+.env.*
+
+# Ignorar arquivos de configuração locais
+*.env
+*.local
+
+# Ignorar banco de dados local
+enterprise.db
+
+# Ignorar arquivos e pastas do VS Code (opcional)
+.vscode/
+
+# Ignorar arquivos de logs
+*.log
