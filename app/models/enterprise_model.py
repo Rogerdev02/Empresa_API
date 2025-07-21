@@ -1,5 +1,7 @@
-from sqlalchemy import Column, String, Integer, Float
+from sqlalchemy import Column, Float, Integer, String
+
 from app.database.connection import Base
+
 
 class Enterprise(Base):
     __tablename__ = 'enterprises'
@@ -10,4 +12,3 @@ class Enterprise(Base):
     cnpj = Column(String, unique=True, nullable=False)
     telephone = Column(String, nullable=False)
     social_value = Column(Float, nullable=False)
-    
